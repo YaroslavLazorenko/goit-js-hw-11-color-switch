@@ -1,2 +1,2 @@
 # goit-js-hw-11-color-switch
-GoIT Homework JavaScript #10
+GoIT Homework JavaScript #11
