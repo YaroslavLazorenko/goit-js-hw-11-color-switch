@@ -7,4 +7,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./styles/styles.css");var e=r(require("./js/colors-array")),t=r(require("./js/refs"));function r(e){return e&&e.__esModule?e:{default:e}}const s=1e3,{body:l,startButton:a,stopButton:n}=t.default;let o=null;const u=(e,t)=>Math.floor(Math.random()*(t-e+1)+e),d=()=>{const t=e.default[u(0,e.default.length-1)];l.style.backgroundColor=t},c=()=>{a.setAttribute("disabled",""),o=setInterval(d,1e3)},i=()=>{a.removeAttribute("disabled"),clearInterval(o)};a.addEventListener("click",c),n.addEventListener("click",i);
 },{"./styles/styles.css":"jD6M","./js/colors-array":"fMke","./js/refs":"VyiV"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-color-switch/src.498279f4.js.map
+//# sourceMappingURL=/goit-js-hw-11-color-switch/src.dd6e2c9e.js.map
