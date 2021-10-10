@@ -1,7 +1,7 @@
 body {
   display: flex;
   justify-content: center;
-  font-style: sans-serif;
+  font-family: sans-serif;
   font-size: 2rem;
 }
 
